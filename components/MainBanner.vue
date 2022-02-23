@@ -16,7 +16,7 @@
             <div class="content custom-padding">
                 <div class="container">
                     <img src="~/assets/img/logo-qitaly-black.png" alt="Q Italy logo" width="110" height="110" class="mb-3 mobile-d-none">
-                    <h1 class="mb-3"><span class="font-w-300">Obbiettivo:</span><br><span class="font-w-500">DIFFONDERE LA BELLEZZA</span></h1>
+                    <h1 class="mb-3"><span class="font-w-300">Obiettivo:</span><br><span class="font-w-500">DIFFONDERE LA BELLEZZA</span></h1>
 
                     <div class="d-inline-block mobile-d-block my-2">
                         <a href="#q-epilaser" class="red-btn mr-3">Q Epilaser 2.0</a>

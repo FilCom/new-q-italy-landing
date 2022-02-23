@@ -46,7 +46,7 @@
                         <div class="dot-grid">
                             <div class="d-flex px-4 size-1-15">
                                 <div class="square"></div>
-                                <p class="m-0 font-w-500">Un paicevole massaggio sulla pelle</p>
+                                <p class="m-0 font-w-500">Un piacevole massaggio sulla pelle</p>
                             </div>
                             <div class="d-flex px-4 size-1-15">
                                 <div class="square"></div>

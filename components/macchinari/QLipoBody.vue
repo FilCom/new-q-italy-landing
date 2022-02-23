@@ -56,7 +56,7 @@
                             </div>
                             <div class="d-flex px-4 size-1-15">
                                 <div class="square"></div>
-                                <p class="m-0 font-w-500">Macchinario hand free</p>
+                                <p class="m-0 font-w-500">Macchinario hands free</p>
                             </div>
                         </div>
                         

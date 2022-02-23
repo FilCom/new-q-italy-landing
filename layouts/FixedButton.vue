@@ -5,7 +5,7 @@
         </div>
         <div class="content" :data-status="status">
             <div>
-                <p class="mb-0"><b>VANTAGGI FISCALI <span class="color-gold">2022</span></b><br><a href="#vantaggi-fiscali" class="underline color-gold">Scopripli tutti</a> ></p>
+                <p class="mb-0"><b>VANTAGGI FISCALI <span class="color-gold">2022</span></b><br><a href="#vantaggi-fiscali" class="underline color-gold">Scoprili tutti</a> ></p>
             </div>
             <i class="fa-solid fa-xmark text-light size-0-8 close" v-on:click="status = 'closed'"></i>
         </div>
