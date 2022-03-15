@@ -2,18 +2,30 @@
     <div id="the-form">
 
         <b-form @submit="onSubmit">
-
+            
+            <!-- Nome centro -->
             <b-form-group id="input-group-1" label-for="input-1">
-                <b-form-input id="input-1" v-model="form.email" type="email" placeholder="Email" required></b-form-input>
+                <b-form-input id="input-1" v-model="form.centerName" type="text" placeholder="Nome del centro estetico" required></b-form-input>
             </b-form-group>
 
-            <b-form-group id="input-group-2" v-slot="{ ariaDescribedby }" class="mt-2">
+            <!-- Email -->
+            <b-form-group id="input-group-2" label-for="input-2">
+                <b-form-input id="input-2" v-model="form.email" type="email" placeholder="Email" required></b-form-input>
+            </b-form-group>
+
+            <!-- Telefono -->
+            <b-form-group id="input-group-3" label-for="input-3">
+                <b-form-input id="input-3" v-model="form.phone" type="tel" placeholder="Telefono" required></b-form-input>
+            </b-form-group>
+            
+            <!-- Privacy -->
+            <b-form-group id="input-group-4" v-slot="{ ariaDescribedby }" class="mt-2">
                 <b-form-checkbox-group v-model="form.privacy" id="checkboxes-2" :aria-describedby="ariaDescribedby">
                     <b-form-checkbox value="Privacy"><a href="https://www.q-italy.it/privacy/" target="_blank">Privacy</a></b-form-checkbox>
                 </b-form-checkbox-group>
             </b-form-group>
 
-             <b-button type="submit" variant="primary">Scarica l'informativa</b-button>
+            <b-button type="submit" variant="primary">Scarica l'informativa</b-button>
         </b-form>
 
     </div>
@@ -25,7 +37,9 @@
         data() {
             return {
                 form: {
+                    centerName: '',
                     email: '',
+                    phone: '',
                     privacy: []
                 }
             }
@@ -38,7 +52,7 @@
                     return
                 }
 
-                let body = `Un utente ha scaricato il pdf. Email: ${this.form.email}`
+                let body = `Un utente ha scaricato il pdf.<br><b>Email</b>: ${this.form.email}<br><b>Nome centro</b>: ${this.form.centerName}<br><b>Telefono</b>: ${this.form.phone}`
 
                 // send email
                 this.$axios.post('/mail/send.php', {
@@ -69,7 +83,9 @@
         #input-group-2 a {
             color: #b7b7b7;
         }
-        input[type="email"] {
+        input[type="email"],
+        input[type="text"],
+        input[type="tel"] {
             outline: none !important;
             border: none !important;
             box-shadow: none !important;

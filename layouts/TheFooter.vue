@@ -7,7 +7,7 @@
                 <div class="mt-4 mb-2">
                     <i class="fa-solid fa-location-dot color-red size-1-7"></i>
                 </div>
-                <p class="text-light mb-4">Strada Fornace Vecchia, s.n.<br>61122 Pesaro (PU) Bagnolo in Piano RE</p>
+                <p class="text-light mb-4">Strada Fornace Vecchia, s.n.<br>61122 Pesaro (PU)</p>
 
                 <div class="mt-4 mb-2">
                     <i class="fa-solid fa-phone color-red size-1-7"></i>
