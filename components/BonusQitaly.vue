@@ -30,11 +30,17 @@
                         Ecco che promuoversi e valorizzare il proprio lavoro diventa semplice e perfino divertente!</p>
 
                         <div>
-                            <a href="javascript:void(0)" v-on:click="showPopup()" class="red-btn">Contattaci</a>
+                            <!--
+                                <a href="javascript:void(0)" v-on:click="showPopup()" class="red-btn">Contattaci</a>
+                            -->
+                            <a href="#contact-form" class="red-btn">Contattaci</a>
                             <a href="tel:+39074225198" class="phone-btn"><i class="fa-solid fa-phone"></i></a>
                             <a href="mailto:info@qitaly.it" class="phone-btn desktop-d-none"><i class="fa-solid fa-envelope"></i></a>
                         </div>
-                        <a href="mailto:info@qitaly.it" class="underline mt-2 d-inline-block mobile-d-none">info@qitaly.it</a> <i class="fa-solid fa-copy mobile-d-none ml-2 size-1-2 pointer color-grey position-relative" v-on:click="toClipboard()"><span class="copied"> Copiato!</span></i>
+                        <a href="mailto:info@qitaly.it" class="underline mt-2 d-inline-block mobile-d-none">info@qitaly.it</a>
+                        <!--
+                            <i class="fa-solid fa-copy mobile-d-none ml-2 size-1-2 pointer color-grey position-relative" v-on:click="toClipboard()"><span class="copied"> Copiato!</span></i>
+                        -->
                     </div>
                     <div class="col-lg-4">
                         <img src="~/assets/img/marketing365.png" alt="Marketing 365" class="mw-100 py-4">

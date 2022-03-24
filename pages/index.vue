@@ -4,6 +4,7 @@
         <QEpilaser/>
         <QReGenesys/>
         <QLipoBody/>
+        <ContactForm/>
         <ChiSiamo/>
         <BonusQitaly/>
         <SupportoQitaly/>
@@ -22,6 +23,7 @@
     import SupportoQitaly from '../components/SupportoQitaly'
     import TestimonialQitaly from '../components/TestimonialQitaly'
     import VantaggiFiscali from '../components/VantaggiFiscali'
+    import ContactForm from '../components/ContactForm.vue'
 
     export default {
         name: 'IndexPage',
@@ -34,7 +36,8 @@
             BonusQitaly,
             SupportoQitaly,
             TestimonialQitaly,
-            VantaggiFiscali
+            VantaggiFiscali,
+            ContactForm
         }
     }
 </script>
