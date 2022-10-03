@@ -41,17 +41,28 @@
     cursor: pointer;
 }
 
+.rounded-full {
+    border-radius: 99rem;
+}
+
+.color-white {
+    color: #fff;
+}
 .color-grey {
     color: #b3b3b3;
 }
 .color-gold {
-    color: #CE8203;
+    color: #D9A348;
 }
 .h-color-gold:hover {
-    color: #CE8203;
+    color: #D9A348;
 }
 .color-red {
     color: #DE3333;
+}
+
+.bg-gold {
+    background-color: #D9A348;
 }
 
 @media screen and (max-width: 999px) {

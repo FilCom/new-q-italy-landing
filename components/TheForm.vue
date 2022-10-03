@@ -9,8 +9,8 @@
             </b-form-group>
 
             <!-- Email -->
-            <b-form-group id="input-group-2" label-for="input-2">
-                <b-form-input id="input-2" v-model="form.email" type="email" placeholder="Email" required></b-form-input>
+            <b-form-group id="input-group-2" label-for="email">
+                <b-form-input id="email" v-model="form.email" type="email" placeholder="Email" required></b-form-input>
             </b-form-group>
 
             <!-- Telefono -->
@@ -19,14 +19,18 @@
             </b-form-group>
             
             <!-- Privacy -->
-            <b-form-group id="input-group-4" v-slot="{ ariaDescribedby }" class="mt-2">
-                <b-form-checkbox-group v-model="form.privacy" id="checkboxes-2" :aria-describedby="ariaDescribedby">
-                    <b-form-checkbox value="Privacy"><a href="https://www.q-italy.it/privacy/" target="_blank">Privacy</a></b-form-checkbox>
+            <b-form-group id="privacy-group" v-slot="{ ariaDescribedby }" class="mt-2 privacy-color">
+                <b-form-checkbox-group v-model="form.privacy" id="checkboxes-4" :aria-describedby="ariaDescribedby" name="privacy" required>
+                    <b-form-checkbox value="Privacy" required>
+                        <a href="https://www.q-italy.it/privacy/" target="_blank">Privacy</a>
+                    </b-form-checkbox>
                 </b-form-checkbox-group>
             </b-form-group>
 
             <b-button type="submit" variant="primary">Scarica l'informativa</b-button>
         </b-form>
+
+        <p class="mt-2" v-if="result" v-html="result"></p>
 
     </div>
 </template>
@@ -36,6 +40,7 @@
         name: 'TheForm',
         data() {
             return {
+                result: null,
                 form: {
                     centerName: '',
                     email: '',
@@ -60,15 +65,16 @@
                     dJTDb6H7FM6P6u9qzzKt: '26fCSWfAQxCvJZZyKedZ',
                     subject: 'pdf'
                 })
-                .then(function (response) {
+                .then(response => {
                     console.log(response.data);
 
                     if (response.data) {
-                        window.open('https://q-italy.it/vantaggi-fiscali-2022/bonus-fiscali-2022.pdf', '_blank')
+                        this.result = 'Grazie per averci contattato!'
                     }
                 })
-                .catch(function (error) {
+                .catch(error => {
                     console.log(error.response.data);
+                    this.result = 'C\'è stato un problema durante l\'invio della mail, riprova più tardi o contattaci a <a href="mailto:info@qitaly.it">info@qitaly.it</a>'
                 });
             }
         }
@@ -93,7 +99,10 @@
             width: 300px;
         }
         [type="submit"] {
-            background-color: #CE8203;
+            border-radius: 99rem !important;
+            padding-right: 14px !important;
+            padding-left: 14px !important;
+            background-color: #D9A348;
             color: #fff;
             padding: 10px;
             outline: none;
@@ -101,7 +110,7 @@
             border: none;
             font-weight: 600;
             &:hover {
-                background-color: #b37000;
+                background-color: #dab169;
             }
         }
 

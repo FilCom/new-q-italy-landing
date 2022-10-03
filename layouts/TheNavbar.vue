@@ -22,7 +22,7 @@
                 </div>
 
                 <div v-on:click="toggleNavbar()" class="menu-item">
-                    <a href="javascript:void(0)" v-on:click="showPopup()">Contattaci</a>
+                    <a href="#contact-form">Contattaci</a>
                 </div>
 
                 <div class="socials">

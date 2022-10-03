@@ -2,9 +2,9 @@
     <div>
         <TheNavbar :config="headerConfig"/>
         <FixedButton/>
-        <!--
-            <PopupForm/>
-        -->
+
+        <PopupForm/>
+        
         <Nuxt/>
         <TheFooter/>
     </div>

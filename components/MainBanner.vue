@@ -28,8 +28,13 @@
                         <a href="#q-lipo-body" class="red-btn">Q Lipo Body Contouring Plus</a>
                     </div>
 
-                    <p class="font-w-500 size-1-2 mt-5">Li conosci già?<br>Acquistali A UN PREZZO MAI VISTO grazie alle<br>
-                    <a href="#vantaggi-fiscali" class="color-gold h-color-gold font-w-500"><span class="underline">AGEVOLAZIONI FISCALI 2022</span> ></a></p>
+                    <p class="font-w-500 size-1-2 mt-5 mb-1" style="font-size: 21px;">Li conosci già?</p>
+
+                    <div>
+                        <a href="#vantaggi-fiscali" class="bg-gold color-white h-color-gold font-w-500 px-3 py-3 rounded-full d-inline-block">AGEVOLAZIONI FISCALI 2022</a>
+                    </div>
+
+                    <p class="font-w-500 size-1-2 mt-2">Fino all’ <span style="color: red;">85%</span> di detrazioni!</p>
                 </div>
             </div>
         </div>
