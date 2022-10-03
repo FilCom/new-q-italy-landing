@@ -4,7 +4,7 @@ export default {
 	head: {
 		title: 'Q Italy Vantaggi Fiscali 2022',
 		htmlAttrs: {
-			lang: 'en'
+			lang: 'it'
 		},
 		meta: [
 			{ charset: 'utf-8' },
@@ -15,7 +15,7 @@ export default {
             { hid: 'description', name: 'description', content: 'Fino all\'80% di agevolazioni fiscali con credito d’imposta e industria 4.0. Scopri i nostri prodotti e approfitta subito degli incentivi' },
             { hid: 'og:title', name: 'og:title', content: 'Q Italy Vantaggi Fiscali 2022'},
             { hid: 'og:description', name: 'og:description', content: 'Fino all\'80% di agevolazioni fiscali con credito d’imposta e industria 4.0. Scopri i nostri prodotti e approfitta subito degli incentivi'},
-            { name: 'og:url', content: 'https://q-italy.it/vantaggi-fiscali-2022/'},
+            { name: 'og:url', content: 'https://q-italy.it/vantaggi-fiscali-2022-old/'},
             //{ name: 'og:image', content: 'TODO'}
 		],
 		link: [
@@ -34,7 +34,7 @@ export default {
 
 	router: {
 		linkActiveClass: "active",
-		base: '/vantaggi-fiscali-2022/'
+		base: '/vantaggi-fiscali-2022-old/'
 	},
 
 	plugins: [
