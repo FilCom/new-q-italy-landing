@@ -11,7 +11,7 @@
         <BonusQitaly/>
         <div class="py-5" style="background-color: #fafafa;" id="contact-form">
             <div class="container py-5 px-lg-0 px-5">
-                <ContactFormPocket/>
+                <ContactFormPocket id="general-form"/>
             </div>
         </div>
         <SupportoQitaly/>

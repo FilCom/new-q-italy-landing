@@ -1,7 +1,7 @@
 <template>
     <div id="the-form">
 
-        <b-form @submit="onSubmit">
+        <b-form @submit="onSubmit" id="pdf-form">
             
             <!-- Nome centro -->
             <b-form-group id="input-group-1" label-for="input-1">
