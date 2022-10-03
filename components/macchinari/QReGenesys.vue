@@ -7,7 +7,7 @@
                     <div class="col-lg-8 relative">
                         <p class="mb-1 d-none d-lg-block">Compatibile con:</p>
                         <div>
-                            <a href="#vantaggi-fiscali" class="bg-gold color-white h-color-gold font-w-500 px-3 py-2 rounded-full d-inline-block">Bonus industria 4.0</a>
+                            <a href="#vantaggi-fiscali" class="bg-gold color-white hover-gold font-w-500 px-3 py-2 rounded-full d-inline-block">Bonus industria 4.0</a>
                         </div>
                         <p class="mt-1 d-none d-lg-block">Fino all’ <span style="color: red;">85%</span> di detrazioni!</p>
 

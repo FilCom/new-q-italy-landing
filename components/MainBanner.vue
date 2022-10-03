@@ -31,7 +31,7 @@
                     <p class="font-w-500 size-1-2 mt-5 mb-1" style="font-size: 21px;">Li conosci già?</p>
 
                     <div>
-                        <a href="#vantaggi-fiscali" class="bg-gold color-white h-color-gold font-w-500 px-3 py-3 rounded-full d-inline-block">AGEVOLAZIONI FISCALI 2022</a>
+                        <a href="#vantaggi-fiscali" class="bg-gold color-white hover-gold font-w-500 px-3 py-3 rounded-full d-inline-block">AGEVOLAZIONI FISCALI 2022</a>
                     </div>
 
                     <p class="font-w-500 size-1-2 mt-2">Fino all’ <span style="color: red;">85%</span> di detrazioni!</p>
