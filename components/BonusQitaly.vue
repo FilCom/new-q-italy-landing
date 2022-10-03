@@ -30,7 +30,7 @@
                         Ecco che promuoversi e valorizzare il proprio lavoro diventa semplice e perfino divertente!</p>
 
                         <div>
-                            <a href="#contact-form" class="red-btn">Scrivici</a>
+                            <a href="#contact-form" class="red-btn px-4">Scrivici</a>
                             <a href="tel:+39074225198" class="phone-btn"><i class="fa-solid fa-phone"></i></a>
                         </div>
                     </div>

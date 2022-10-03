@@ -102,7 +102,7 @@
 
 <script>
     export default {
-        name: 'ContactForm',
+        name: 'ContactFormPocket',
         props: [
             'id',
             'macchinario'

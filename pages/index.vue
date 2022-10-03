@@ -10,8 +10,8 @@
 
         <BonusQitaly/>
         <div class="py-5" style="background-color: #fafafa;" id="contact-form">
-            <div class="container py-5">
-                <ContactFormPocket class="d-none d-lg-block"/>
+            <div class="container py-5 px-lg-0 px-5">
+                <ContactFormPocket/>
             </div>
         </div>
         <SupportoQitaly/>
@@ -30,7 +30,6 @@
     import SupportoQitaly from '../components/SupportoQitaly'
     import TestimonialQitaly from '../components/TestimonialQitaly'
     import VantaggiFiscali from '../components/VantaggiFiscali'
-    import ContactForm from '../components/ContactForm.vue'
     import ContactFormPocket from '../components/ContactFormPocket'
 
     export default {
@@ -45,8 +44,7 @@
             SupportoQitaly,
             TestimonialQitaly,
             VantaggiFiscali,
-            ContactFormPocket,
-            ContactForm
+            ContactFormPocket
         }
     }
 </script>
