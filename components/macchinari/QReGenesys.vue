@@ -1,5 +1,5 @@
 <template>
-    <div id="q-epilaser">
+    <div id="q-regenesys">
         <div class="background">
             <div class="container py-5 mt-5">
                 <div class="row align-items-center mb-3">
@@ -17,8 +17,8 @@
                         <div class="row mb-2">
                             <div class="col-lg-3" style="position: static;">
                                 <div class="mobile-wrp">
-                                    <img src="~/assets/img/prodotti/epilaser-gun2.png" alt="Epilaser" class="prod-img">
-                                    <img src="~/assets/img/prodotti/epilaser-base.png" alt="Epilaser" class="base-img" style="max-width: 100%;">
+                                    <img src="~/assets/img/prodotti/epilaser-gun2.png" alt="Regenesys" class="prod-img">
+                                    <img src="~/assets/img/prodotti/epilaser-base.png" alt="Regenesys" class="base-img" style="max-width: 100%;">
                                 </div>
                             </div>
                             <div class="col-lg-9">

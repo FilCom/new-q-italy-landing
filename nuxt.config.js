@@ -4,7 +4,7 @@ export default {
 	head: {
 		title: 'Q Italy Vantaggi Fiscali 2022',
 		htmlAttrs: {
-			lang: 'en'
+			lang: 'it'
 		},
 		meta: [
 			{ charset: 'utf-8' },
