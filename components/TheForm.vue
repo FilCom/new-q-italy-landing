@@ -8,14 +8,14 @@
                 <b-form-input id="input-1" v-model="form.centerName" type="text" placeholder="Nome del centro estetico" required></b-form-input>
             </b-form-group>
 
-            <!-- Email -->
-            <b-form-group id="input-group-2" label-for="email">
-                <b-form-input id="email" v-model="form.email" type="email" placeholder="Email" required></b-form-input>
-            </b-form-group>
-
             <!-- Telefono -->
             <b-form-group id="input-group-3" label-for="input-3">
                 <b-form-input id="input-3" v-model="form.phone" type="tel" placeholder="Telefono" required></b-form-input>
+            </b-form-group>
+
+            <!-- Email -->
+            <b-form-group id="input-group-2" label-for="email">
+                <b-form-input id="email" v-model="form.email" type="email" placeholder="Email" required></b-form-input>
             </b-form-group>
             
             <!-- Privacy -->

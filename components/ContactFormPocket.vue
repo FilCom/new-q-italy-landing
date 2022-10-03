@@ -21,6 +21,7 @@
                                     required></b-form-input>
                             </b-form-group>
                         </div>
+                        
                         <div class="col-lg-6 px-2">
                             <b-form-group
                                 id="city-group"
@@ -33,17 +34,7 @@
                                     required></b-form-input>
                             </b-form-group>
                         </div>
-                        <div class="col-lg-6 px-2">
-                            <b-form-group
-                                id="phone-group"
-                                label-for="phone">
-                                <b-form-input
-                                    id="phone"
-                                    v-model="form.phone"
-                                    type="text"
-                                    placeholder="Telefono"></b-form-input>
-                            </b-form-group>
-                        </div>
+
                         <div class="col-lg-6 px-2">
                             <b-form-group 
                                 id="email-group"
@@ -54,6 +45,18 @@
                                     type="email"
                                     placeholder="Email"
                                     required></b-form-input>
+                            </b-form-group>
+                        </div>
+
+                        <div class="col-lg-6 px-2">
+                            <b-form-group
+                                id="phone-group"
+                                label-for="phone">
+                                <b-form-input
+                                    id="phone"
+                                    v-model="form.phone"
+                                    type="text"
+                                    placeholder="Telefono"></b-form-input>
                             </b-form-group>
                         </div>
 
