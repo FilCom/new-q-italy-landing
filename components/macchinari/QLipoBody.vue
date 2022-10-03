@@ -17,8 +17,8 @@
                         <div class="row mb-2">
                             <div class="col-lg-3" style="position: static;">
                                 <div class="mobile-wrp">
-                                    <img src="~/assets/img/prodotti/epilaser-gun.png" alt="Epilaser" class="prod-img">
-                                    <img src="~/assets/img/prodotti/epilaser-base.png" alt="Epilaser" class="base-img" style="max-width: 100%;">
+                                    <img src="~/assets/img/prodotti/lipo-gun.jpg" alt="Epilaser" class="prod-img" style="border-radius: 14px;">
+                                    <img src="~/assets/img/prodotti/lipo-base.png" alt="Epilaser" class="base-img" style="max-width: 100%;">
                                 </div>
                             </div>
                             <div class="col-lg-9">
@@ -122,18 +122,20 @@
             position: absolute;
             top: 0;
             right: 0;
-            transform: translateX(20%);
+            transform: translate(50%, -10%);
             width: 420px;
             max-width: auto;
         }
     }
 
     .background {
-        background-image: url('~/assets/img/gray-square.jpg');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-position-x: calc(50% - 247px);
-        background-size: 700px;
+        @media screen and (min-width: 1024px) {
+            background-image: url('~/assets/img/gray-square.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-position-x: calc(50% - 247px);
+            background-size: 700px;
+        }
     }
     .tab-nav {
         display: flex;

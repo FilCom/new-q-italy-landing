@@ -127,11 +127,13 @@
     }
 
     .background {
-        background-image: url('~/assets/img/gray-square.jpg');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-position-x: calc(50% - 247px);
-        background-size: 700px;
+        @media screen and (min-width: 1024px) {
+            background-image: url('~/assets/img/gray-square.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-position-x: calc(50% - 247px);
+            background-size: 700px;
+        }
     }
     .tab-nav {
         display: flex;
