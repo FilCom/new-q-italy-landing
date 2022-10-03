@@ -69,7 +69,8 @@
                     console.log(response.data);
 
                     if (response.data) {
-                        this.result = 'Grazie per averci contattato!'
+                        this.result = 'Grazie per averci contattato!';
+                        window.open('/vantaggi-fiscali-2022/bonus-fiscali-2022.pdf', '_blank').focus();
                     }
                 })
                 .catch(error => {
