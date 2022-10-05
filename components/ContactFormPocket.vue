@@ -56,7 +56,8 @@
                                     id="phone"
                                     v-model="form.phone"
                                     type="text"
-                                    placeholder="Telefono"></b-form-input>
+                                    placeholder="Telefono"
+                                    required></b-form-input>
                             </b-form-group>
                         </div>
 
