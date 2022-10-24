@@ -11,7 +11,7 @@
 
                             <h3 class="pb-3 mobile-size-1-1">Il nostro staff è a tua disposizione!</h3>
 
-                            <b-form @submit="onSubmit" id="the-popup-form">
+                            <b-form @submit="onSubmit" id="contact-form-the-popup-form">
 
                                 <div class="row mb-3">
                                     <div class="col-lg-6">
