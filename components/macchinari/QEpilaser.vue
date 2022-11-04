@@ -66,6 +66,7 @@
                                 <p class="m-0 font-w-500">Facilità d'uso per l'operatore</p>
                             </div>
                         </div>
+                        <a href="https://www.q-italy.it/service/q-epilaser-2-0/" target="_blank" class="red-btn px-5 mt-4 w-100 text-center">Più info</a>
                     </div>
 
                 </div>

@@ -3,12 +3,13 @@
         <div class="background py-5">
             <div class="container text-center border-bottom pb-4">
                 <img src="~/assets/img/logo-qitaly-white.png" alt="Logo Q Italy" width="100" height="100">
-
+                
                 <div class="mt-4 mb-2">
                     <i class="fa-solid fa-location-dot color-red size-1-7"></i>
                 </div>
                 <p class="text-light mb-4">Strada Fornace Vecchia, s.n.<br>61122 Pesaro (PU)</p>
 
+                <!--
                 <div class="mt-4 mb-2">
                     <i class="fa-solid fa-phone color-red size-1-7"></i>
                 </div>
@@ -18,6 +19,10 @@
                     <i class="fa-solid fa-envelope color-red size-1-7"></i>
                 </div>
                 <a href="mailto:info@qitaly.it">info@qitaly.it</a>
+                -->
+
+                <p class="mb-1 text-white">Richiedi ulteriori informazioni</p>
+                <p class="text-white">info@qitaly.it</p>
 
                 <div class="mt-4">
                     <a href="#" class="px-2">Privacy Policy</a> <a href="#" class="px-2">Cookie Law</a>

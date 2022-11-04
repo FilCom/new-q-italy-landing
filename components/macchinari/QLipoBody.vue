@@ -52,7 +52,7 @@
 
                     </div>
 
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 mt-lg-5 pt-lg-5">
                         <p class="size-1-2 font-w-500 mt-3 mt-lg-5">LA DIFFERENZA Q ITALY</p>
                         <div class="dot-grid">
                             <div class="d-flex size-1-15 mb-3">
@@ -68,6 +68,7 @@
                                 <p class="m-0 font-w-500">Macchinario hands free</p>
                             </div>
                         </div>
+                        <a href="https://www.q-italy.it/service/q-lipo-body-contouring-plus/" target="_blank" class="red-btn px-5 mt-4 w-100 text-center">Più info</a>
                     </div>
 
                 </div>

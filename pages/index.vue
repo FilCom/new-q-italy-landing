@@ -17,6 +17,24 @@
         <SupportoQitaly/>
         <TestimonialQitaly/>
         <VantaggiFiscali/>
+
+        <div class="container py-5">
+            <p class="text-center h3 py-2 mb-4">Siamo presenti nelle riviste di settore:</p>
+            <div class="d-flex mobile-flex-col justify-between items-ceter gap-3">
+                <img src="~assets/img/loghi/logo-beautyplan.jpg" alt="" width="170">
+                <img src="~assets/img/loghi/logo-estetispa.png" alt="" width="170">
+                <img src="~assets/img/loghi/logo-esthetitaly.png" alt="" width="170">
+                <img src="~assets/img/loghi/logo-lne.jpg" alt="" width="170">
+                <img src="~assets/img/loghi/logo-mabella.png" alt="" width="170">
+            </div>
+
+            <p class="text-center h3 py-2 mb-2 mt-5">Abbiamo partecipato a:</p>
+            <p class="text-center mb-2">Cosmoprof Bologna 2022</p>
+            <p class="text-center">The Beauty & wellness congress (Milano)</p>
+
+            <p class="text-center h3 py-2 mb-2 mt-5">Prossimi appuntamenti:</p>
+            <p class="text-center">Aestetica Beauty & Wellness Exhibition (Napoli) <i>12-14 Novembre 2022 | Padiglione 1, Stand 136</i></p>
+        </div>
     </div>
 </template>
 

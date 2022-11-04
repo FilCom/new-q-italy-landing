@@ -71,6 +71,7 @@
                                 <p class="m-0 font-w-500">Manipoli ergonomici, display user friendly</p>
                             </div>
                         </div>
+                        <a href="https://www.q-italy.it/service/q-regenesys/" target="_blank" class="red-btn px-5 mt-4 w-100 text-center">Più info</a>
                     </div>
 
                 </div>

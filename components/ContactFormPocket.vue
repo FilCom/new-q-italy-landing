@@ -1,7 +1,7 @@
 <template>
     <div>
 
-        <h3 class="bb-1 pb-1 mobile-size-1-1" style="font-size: 20px;">IL NOSTRO STAFF È A TUA DISPOSIZIONE!</h3>
+        <h3 class="bb-1 pb-1 mobile-size-1-1" style="font-size: 20px;">Compila il form sarai contattato subito dai nostri esperti</h3>
 
         <b-form @submit="onSubmit" v-if="show" :id="id">
 
@@ -195,6 +195,7 @@
         border: none;
         border-radius: 0;
         width: 100%;
+        font-weight: bold;
         &:hover {
             background-color: #BA1116;
             color: #fff;
