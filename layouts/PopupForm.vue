@@ -9,7 +9,7 @@
                         <div class="py-3">
                             <i class="fa-solid fa-xmark size-1-7 close" @click="hide()"></i>
 
-                            <h3 class="pb-3 mobile-size-1-1">Compila il form sarai contattato subito dai nostri esperti</h3>
+                            <h3 class="pb-3 mobile-size-1-1">Compila il Form per ricevere informazioni specifiche sui bonus 4.0 per questo macchinario</h3>
 
                             <b-form @submit="onSubmit" id="contact-form-the-popup-form">
 

@@ -1,7 +1,8 @@
 <template>
     <div>
 
-        <h3 class="bb-1 pb-1 mobile-size-1-1" style="font-size: 20px;">Compila il form sarai contattato subito dai nostri esperti</h3>
+        <h3 v-if="macchinario" class="bb-1 pb-1 mobile-size-1-1" style="font-size: 20px;">Compila il Form per ricevere informazioni specifiche sui bonus 4.0 per questo macchinario</h3>
+        <h3 v-else class="bb-1 pb-1 mobile-size-1-1" style="font-size: 20px;">Compila il form sarai contattato subito dai nostri esperti</h3>
 
         <b-form @submit="onSubmit" v-if="show" :id="id">
 
